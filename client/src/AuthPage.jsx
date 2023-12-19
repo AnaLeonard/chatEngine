@@ -62,6 +62,11 @@ const AuthPage = (props) => {
         <div className="calendar">
           <Calendar onChange={handleDateChange} value={selectedDate} />
         </div>
+            {/* Add github link */}
+            <div className="gh">
+          GitHub: <a href="https://github.com/AnaLeonard/chatEngine" target="_blank" rel="noopener noreferrer">@AnaLeonard</a>
+
+        </div>
       </form>
     </div>
   );
