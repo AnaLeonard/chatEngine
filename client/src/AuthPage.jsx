@@ -1,4 +1,6 @@
 import axios from 'axios';
+import hImage from './assets/hi.gif';
+
 
 const AuthPage = (props) => {
   const onSubmit = (e) => {
@@ -16,7 +18,7 @@ const AuthPage = (props) => {
   return (
     <div className="background">
 
-<img id="pic1" src="/h.jpeg" alt="Welcome Image" />
+<img id="pic1" src={hImage} alt="Welcome to Chat.AI" />
       <form onSubmit={onSubmit} className="form-card">
         <div className="form-title">Welcome to Chat.AI</div>
 
