@@ -2,5 +2,14 @@ POST http://localhost:3001/
 Content-Type: application/json
 
 {
-"username": "karen"
+"username": "p"
+}
+ 
+###
+
+POST http://localhost:3001/
+Content-Type: application/json
+
+{
+  "username": "adam"
 }
