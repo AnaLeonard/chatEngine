@@ -1,26 +1,14 @@
+
+
 body {
-  background-image: url('./assets/valley.jpeg');
+  background-color: rgb(131, 119, 147);
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0px;
-}
-
-.background {
-  width: 100vw;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 100vh;
-  background: rgb(131, 119, 147);
-  /* Vertical center */
-  display: table-cell;
-  vertical-align: middle;
-}
-
-.form-card {
-  width: 50%;
-  max-width: 350px;
-  padding: 25% 25% 25% 25%;
-
-
-
 }
 
 
@@ -30,7 +18,36 @@ body {
   font-weight: 800; 
   letter-spacing: 0.5px; 
   color: #e9e5e3; 
+  text-align: center;
   padding-bottom: 12px; 
+
+}
+
+
+body {
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.form-card {
+  width: 50%;
+  max-width: 350px;
+  padding: 25% 25% 25% 25%;
+}
+
+.form-title {
+  font-size: 42px;
+  font-family: fantasy;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  color: #e9e5e3;
+  text-align: center;
+  padding-bottom: 12px;
 }
 
 .form-subtitle {
@@ -89,4 +106,9 @@ body {
   margin-left: 10%; 
   color: white; 
   background: rgb(4, 5, 5);
+}
+
+#pic1{
+  text-align: center;
+
 }
