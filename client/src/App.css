@@ -10,7 +10,7 @@ body {
 .background {
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(75deg, rgb(20, 23, 33) 0%, rgb(20, 23, 33) 50%, rgba(20, 23, 33,0.8) 100%);
+  background: rgb(131, 119, 147);
   /* Vertical center */
   display: table-cell;
   vertical-align: middle;
@@ -24,18 +24,18 @@ body {
 
 .form-title { 
   font-size: 42px; 
-  font-family: 'Avenir'; 
+  font-family:fantasy; 
   font-weight: 800; 
   letter-spacing: 0.5px; 
-  color: #e8e8e8; 
+  color: #e9e5e3; 
   padding-bottom: 12px; 
 }
 
 .form-subtitle {
   font-size: 18px;
-  font-family: 'Avenir';
+  font-family: 'fantasy';
   letter-spacing: 0.5px;
-  color: #afafaf;
+  color: #d6cbcb;
   padding-bottom: 24px;
 }
 
@@ -49,7 +49,7 @@ body {
   position: absolute;
   top: 8px;
   left: 18px;
-  font-size: 11px;
+  font-size: 20px;
   color: rgb(175, 175, 175);
   font-family: Avenir;
   width: 100px;
@@ -57,7 +57,7 @@ body {
 .auth-input {
   background-color: #3e404b;
   color: white;
-  font-family: "Avenir";
+  font-family: "fantasy";
   outline: none;
   border: none;
   border-radius: 8px;
@@ -69,11 +69,11 @@ body {
   width: 100%;
   height: 53px;
   color: white;
-  background-color: #fa541c;
+  background-color: #b1a7bb;
   border: none;
   outline: none;
   border-radius: 8px;
-  font-family: "Avenir";
+  font-family: "fantasy";
   cursor: pointer;
   transition: all .44s ease;
   -webkit-transition: all .44s ease;
@@ -86,5 +86,5 @@ body {
   width: 80%;
   margin-left: 10%; 
   color: white; 
-  background: rgb(43, 47, 60);
+  background: rgb(4, 5, 5);
 }
