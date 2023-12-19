@@ -13,3 +13,11 @@ Content-Type: application/json
 {
   "username": "adam"
 }
+
+###
+POST http://localhost:3001/
+Content-Type: application/json
+
+{
+  "username": "billy"
+}
